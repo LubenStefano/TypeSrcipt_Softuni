@@ -30,7 +30,7 @@ class PlannedHoliday {
         this.validateDate(this._start, val);
     }
     getInfo() {
-        return `Holiday: ${this._start.toLocaleDateString()} - ${this._end.toDateString()}`;
+        return `Holiday: ${this._start.toLocaleDateString()} - ${this._end.toLocaleDateString()}`;
     }
     validateDate(start, end) {
         if (start >= end)

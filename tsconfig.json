@@ -1,9 +1,12 @@
 {
-"compilerOptions" : {
-"target": "esnext", // ECMAScript target version
-"module": "esnext", // module code generation
-"sourceMap": true, // Generates corresponding .map file
-"strict": true, // strict type-checking options
-"outDir": "out", // redirect output to the directory.
-}
+  "$schema": "tsconfig.json",
+  "compilerOptions": {
+    "target": "esnext", // ECMAScript target version
+    "module": "esnext", // module code generation
+    "sourceMap": true, // Generates corresponding .map file
+    "strict": true, // strict type-checking options
+    "outDir": "out", // redirect output to the directory.
+    "experimentalDecorators": true, // <--- Crucial line 1
+    "emitDecoratorMetadata": true // <--- Crucial line 2
+  }
 }
