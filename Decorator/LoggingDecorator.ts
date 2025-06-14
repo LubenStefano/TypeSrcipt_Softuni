@@ -30,6 +30,7 @@ class Personn {
   static getFullName(fName: string, lName: string): string {
     return `${fName} ${lName}`;
   }
+  
 }
 
 // Example Usage:
